@@ -1,9 +1,9 @@
 # Cisco::Regex.pm
-# $Id: Regex.pm,v 0.90 2014/03/11 20:14:59 jkister Exp $
+# $Id: Regex.pm,v 0.91 2014/04/28 21:32:14 jkister Exp $
 # Copyright (c) 2014 Jeremy Kister.
 # Released under Perl's Artistic License.
 
-$Cisco::Regex::VERSION = "0.90";
+$Cisco::Regex::VERSION = "0.91";
 
 =head1 NAME
 

@@ -1,5 +1,8 @@
 Revision history for Perl extension Cisco::Regex.
 
+0.91  Mon Apr 28 21:32:14 EDT 2014
+      - fix entire test plan from being broken
+
 0.90  Tue Mar 11 20:14:59 EDT 2014
       - original version; created by h2xs 1.21 with options
       -AX Cisco::Regex

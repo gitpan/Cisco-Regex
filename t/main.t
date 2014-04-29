@@ -41,11 +41,11 @@ my %acl = ( std => { good => [ 'access-list 15 permit 10.0.0.0 0.255.255.255',
 for my $type (keys %acl){
     my $method = $type eq 'std' ? 'standard' : 'extended';
     for my $line (@{ $acl{$type}{good} }){
-        my $isbad = $r->$method($line);
-        ok( $isbad == 0, "syntax okay." );
+        my $isok = $r->$method($line);
+        ok( $isok == 1, "syntax ($method/good)." );
     }
     for my $line (@{ $acl{$type}{bad} }){
-        my $isbad = $r->$method($line);
-        ok( $isbad == 1, "syntax error detected." );
+        my $isok = $r->$method($line);
+        ok( $isok != 1, "syntax ($method/bad)." );
     }
 }
