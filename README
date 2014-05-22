@@ -1,4 +1,4 @@
-Cisco::Regex version 0.91
+Cisco::Regex version 0.92
 =======================
 
 Cisco::Regex is made to lint standard and extended ip access lists on

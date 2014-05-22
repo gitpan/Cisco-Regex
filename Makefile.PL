@@ -1,4 +1,5 @@
 use ExtUtils::MakeMaker;
+use 5.010;
 WriteMakefile(
     'NAME'           => 'Cisco::Regex',
     'VERSION_FROM'   => 'Regex.pm', # finds $VERSION
